@@ -410,15 +410,13 @@ footer {
 footer .wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-templete-rows: 1fr 1fr;
-  align-items: center;
-  justify-content: ;
-  /* border: 1px solid red; */
+
+  /* align-items: center; */
 }
 footer p {
   font-size: 1rem;
   margin: 0;
-  padding: 1em 0;
+  padding: 1em 0 0.5em 0;
 }
 footer .links {
   grid-column: 2;
