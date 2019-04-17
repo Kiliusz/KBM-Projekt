@@ -374,13 +374,13 @@ main {
 
   background-size: cover;
   background-position: 40% 50%;
-  height: 330px;
+  height: 360px;
 }
 
 .contact {
   min-height: 32vh;
   background-color: #fff;
-  padding: 1.5em 0;
+  padding: 2em 0;
 }
 .contact h3 {
   margin: 1em 0 0 5%;
