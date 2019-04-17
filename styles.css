@@ -12,7 +12,6 @@ html {
 }
 
 body {
-  position: relative;
   min-height: 100vh;
   padding: 0;
   margin: 0;
@@ -379,9 +378,7 @@ main {
 }
 
 .contact {
-  height: 100%;
-  /* background-color: #fff; */
-  padding: 1em 0;
+  padding: 2em 0;
 }
 .contact h3 {
   margin: 1em 0 0 5%;
@@ -408,14 +405,9 @@ main {
 
 /*             FOOTER         */
 footer {
-  position: absolute;
-  margin-bottom: -180px;
-  width: 100%;
-  bottom: 0;
   color: var(--light-gray);
   padding: 0.5em 0;
   background-color: var(--dark-gray);
-  height: 180px;
 }
 footer .wrapper {
   display: grid;
@@ -567,7 +559,7 @@ footer a:hover {
   }
 
   .contact h3 {
-    margin: 1em 0 0 10%;
+    margin: 1em 0 1em 10%;
     font-size: 1.3rem;
   }
   .contact .wrapper {
@@ -576,7 +568,7 @@ footer a:hover {
 
   .contact-card p {
     margin: 1em 1em;
-    font-size: 1.1rem;
+    font-size: 1.25rem;
   }
   .contact-card img {
     height: 60px;
@@ -644,7 +636,7 @@ footer a:hover {
     height: 70px;
   }
   .contact h3 {
-    margin: 1em 0 0 10%;
+    margin: 1em 0 1em 10%;
     font-size: 1.5rem;
   }
 }
@@ -664,7 +656,7 @@ footer a:hover {
     font-size: 1.2rem;
   }
   .contact h3 {
-    margin: 1em 0 0 15%;
+    margin: 1em 0 1em 15%;
   }
 }
 @media only screen and (min-width: 1500px) {
@@ -676,6 +668,6 @@ footer a:hover {
     height: 14vw;
   }
   .contact h3 {
-    margin: 1em 0 0 20%;
+    margin: 1em 0 1.5em 20%;
   }
 }
