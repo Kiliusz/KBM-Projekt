@@ -378,8 +378,9 @@ main {
 }
 
 .contact {
+  min-height: 32vh;
   background-color: #fff;
-  padding: 1em 0;
+  padding: 1.5em 0;
 }
 .contact h3 {
   margin: 1em 0 0 5%;
