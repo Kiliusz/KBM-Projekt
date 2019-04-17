@@ -364,7 +364,7 @@ main {
   grid-column: 1;
 }
 .firm a:hover {
-  /* color: #fff; */
+  background-color: #dddddd;
 }
 
 /*    CONTACT    */
