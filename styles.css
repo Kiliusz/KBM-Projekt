@@ -12,6 +12,7 @@ html {
 }
 
 body {
+  position: relative;
   min-height: 100vh;
   padding: 0;
   margin: 0;
@@ -374,13 +375,13 @@ main {
 
   background-size: cover;
   background-position: 40% 50%;
-  height: 360px;
+  height: 310px;
 }
 
 .contact {
-  min-height: 32vh;
-  background-color: #fff;
-  padding: 2em 0;
+  height: 100%;
+  /* background-color: #fff; */
+  padding: 1em 0;
 }
 .contact h3 {
   margin: 1em 0 0 5%;
@@ -407,9 +408,14 @@ main {
 
 /*             FOOTER         */
 footer {
+  position: absolute;
+  margin-bottom: -180px;
+  width: 100%;
+  bottom: 0;
   color: var(--light-gray);
   padding: 0.5em 0;
   background-color: var(--dark-gray);
+  height: 180px;
 }
 footer .wrapper {
   display: grid;
