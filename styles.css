@@ -181,7 +181,7 @@ main {
   background-color: #fff;
   -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.46);
   -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.46);
-  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.46);
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.45);
 }
 
 .card img {
